@@ -16,3 +16,8 @@ let nombre= prompt ("Escribe tu nombre")
 
 document.write ("  Hola  "  +  nombre)
 
+//punto cinco 
+
+let numeroUno= prompt ("Escribe un numero")
+let numeroDos= prompt ("Escribe otro numero")
+document.write (" el resultado de numeroUno y numeroDos es " + (parseInt(numeroUno) + parseInt(numeroDos))) 
