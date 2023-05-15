@@ -1,6 +1,6 @@
 //punto uno
 
-alert("un mensaje");
+/*alert("un mensaje");
 
 //punto dos
 
@@ -35,4 +35,23 @@ else
 {
     document.write("el numero mayor es el " + b);
 }
+*/
+//punto siete 
 
+ let uno = prompt("Escribe primer numero");
+ let dos = prompt("Escribe segundo numero");
+ let tres = prompt("Escribe tercero numero");
+ 
+ 
+if ((parseInt(uno)) > (parseInt(dos)) && (parseInt(uno)) > (parseInt(tres))) 
+{
+    document.write("el numero mayor es el " + uno);
+}
+else if ((parseInt(dos)) > (parseInt(uno)) && (parseInt(dos)) > (parseInt(tres))) 
+{
+    document.write("el numero mayor es el " + dos);
+}
+else 
+{
+    document.write("el numero mayor es el " + tres);
+}
