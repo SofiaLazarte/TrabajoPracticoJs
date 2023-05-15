@@ -35,7 +35,7 @@ else
 {
     document.write("el numero mayor es el " + b);
 }
-*/
+
 //punto siete 
 
  let uno = prompt("Escribe primer numero");
@@ -54,4 +54,16 @@ else if ((parseInt(dos)) > (parseInt(uno)) && (parseInt(dos)) > (parseInt(tres))
 else 
 {
     document.write("el numero mayor es el " + tres);
+}
+*/
+
+//punto ocho 
+let num1  = prompt("Escribe un numero");
+
+if ((parseInt(num1)) % 2 == 0) {
+    document.write("el numero " + num1 + " es divisible por 2");
+}
+else
+{
+    document.write("el numero " + num1 + " no es divisible por 2");
 }
